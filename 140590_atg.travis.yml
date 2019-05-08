@@ -1,6 +1,8 @@
-gcc -o test 140590_pattren.c // we can use gcc instead of clang too 
- gcc -o test1 bhavya_140598.c
- gcc -o test3 Kumar.c
- ./test
- ./test1
- ./test3
+language: c
+sudo: false # only for faster builds
+compiler: 
+   - clang
+   - gcc
+script:
+  - gcc -o test 140590_pattren.c
+  - ./test 
