@@ -4,5 +4,5 @@ compiler:
    - clang
    - gcc
 script:
-  - gcc -o 140590_pattren.c 140590_pattren.c
-  - ./140590_pattren.c
+  - gcc -o 140590_pattren 140590_pattren.c
+  - ./140590_pattren
