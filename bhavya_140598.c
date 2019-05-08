@@ -24,3 +24,5 @@ int main()
         printf("%d is not a palindrome",var);
     }
 }
+
+
