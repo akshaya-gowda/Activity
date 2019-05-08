@@ -1,8 +1,0 @@
-language: c
-sudo: false # only for faster builds
-compiler: 
-   - clang
-   - gcc
-script:
-  - gcc -o 140590_pattren 140590_pattren.c
-  - ./140590_pattren
