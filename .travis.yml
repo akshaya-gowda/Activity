@@ -1,4 +1,6 @@
-language: c
+matrix:
+include:
+-language: c
 sudo: false # only for faster builds
 compiler: 
  	- clang
@@ -6,3 +8,8 @@ compiler: 
 script:
  	- gcc -o 140590_pattren 140590_pattren.c
  	- ./140590_pattren
+  	- gcc -o bhavya_140598 bhavya_140598.c
+ 	- ./bhavya_140598
+  	- gcc -o Kumar Kumar.c
+ 	- ./Kumar
+  
